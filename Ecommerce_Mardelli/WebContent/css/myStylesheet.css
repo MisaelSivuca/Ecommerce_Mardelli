@@ -1,0 +1,165 @@
+@CHARSET "ISO-8859-1";
+body{
+    width: 1366px;
+}  
+/* ################   Todo o header do site    ###################### */ 
+
+/* =====   Ã�rea da logo, campo buscar e login    ==== */ 
+header{
+    background-color: #003f34;
+}
+#topo{
+    display: inline-block;
+    background-color: #003f34;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.topo1{
+    width: 20%;
+    height: 10rem;
+    float: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    background-color: #003f34;
+}
+
+.topo2{
+    width: 60%;
+    height: 10rem;
+    float: left;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #003f34;
+}
+
+.topo3{
+    width: 20%;
+    height: 10rem;
+    float: right;
+    background-color: #003f34;
+}
+
+.topo3 a{
+    color: #e0e0e0;
+}
+
+ i.fas{
+    font-size: 1.3rem;
+}
+/* =====   Menu Principal    ==== */ 
+  
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+nav{
+    float: left;
+    display: block;
+    background-color: #ffc0cb;
+   
+}
+
+nav ul{
+    width: 1366px;
+    height: 5rem;
+}
+
+nav li{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+nav ul li a{
+    color: black; 
+}
+
+nav ul li a:hover{
+    color: #e0e0e0; 
+}
+
+/* ################      PÃ¡gina    ###################### */ 
+/* ################        do      ###################### */ 
+/* ################     Produtos   ###################### */ 
+
+.section-1{
+    width: 1250px;
+}
+
+.coluna-prodt-1{
+    display: inline-flex;  
+    padding-left: 7rem;  
+    padding-top: 2rem;
+}
+.coluna-prodt-2{
+    display: inline-flex;  
+    padding-left: 7rem;  
+    padding-top: 2rem;
+}
+/* ################                       ###################### */ 
+/* ################   PÃ¡gina do Produto   ###################### */ 
+/* ################                       ###################### */ 
+
+.especf-prdt{
+    width: 1250px;
+    padding-left: 7rem;  
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+#preco, #desconto, #economia  {
+    padding-left: 7rem;
+    line-height: 0.3;
+}
+#sobre-Preco-Prodt{
+    padding-left: 3rem;
+}
+
+/* ################                       ###################### */ 
+/* ################   PÃ¡gina de Cadastro  ###################### */ 
+/* ################                       ###################### */ 
+
+
+#box1{
+    width: 600px; 
+    margin: 2rem 1rem 2rem 10rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border: solid;
+    border-radius: 10px;
+}
+
+#box1 h3{
+    text-align: center;
+}
+#box1 button{
+    text-align: center;
+}
+
+#box2{
+    width: 600px; 
+    margin: 2rem 1rem 2rem 20rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border: solid;
+    border-radius: 10px;
+}
+#box2 h3{
+    text-align: center;
+}
+#box2 button{
+    text-align: center;
+}
+#btn_proximo{
+    text-align: center;
+}
+
+
+/* ################      Cadastro      ###################### */ 
+/* ################         de         ###################### */ 
+/* ################      Produtos      ###################### */ 
+
+.sectionNovoProdt{
+    width: 900px;
+}
+
