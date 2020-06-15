@@ -78,22 +78,22 @@
 
 			<h3>Cadastro de produtos</h3>
 			<font color="#dc143c"><h3>${msg}</h3></font> <label>Nome do
-				produto</label> <input name="nome" value="${produto.nome}" class="form-control"
+				produto</label> <input name="nome" value="${nome}" class="form-control"
 				id="nomeProdt" type="text" /><br> <label>Descrição</label>
-			<textarea name="descricao" value="${produto.descricao}" class="form-control"
+			<textarea name="descricao" value="${descricao}" class="form-control"
 				id="descricaoProdt" rows="3"></textarea>
 			<div class="row">
 				<div class="col-4">
 					<label>Quantidade</label> <input name="qtd_estoque"
-						value="${produto.qtd_estoque}" class="form-control col-4" id="Quantidade"
+						value="${qtd_estoque}" class="form-control col-4" id="Quantidade"
 						type="number" /><br>
 				</div>
 				<div class="col-4">
-					<label>Valor</label> <input name="valor" value="${produto.valor}"
+					<label>Valor</label> <input name="valor" value="${valor}"
 						class="form-control col-4" id="valor" type="number" /><br>
 				</div>
 				<div class="col-4">
-					<label>Desconto</label> <input name="desconto" value="${produto.desconto}"
+					<label>Desconto</label> <input name="desconto" value="${desconto}"
 						class="form-control col-4" id="desconto" type="text" /><br>
 				</div>
 			</div>
